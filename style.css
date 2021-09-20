@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+:root {
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+}
+body {
+  font-family: "poppins";
+  margin: 4em;
+  background-color: var(--Very-Light-Gray);
+}
+.container-1 {
+  text-align: center;
+}
+h1.sub {
+  color: var(--Very-Dark-Blue);
+  font-weight: normal;
+}
+p.co-1 {
+  color: var(--Very-Dark-Blue);
+  font-size: 16px;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.supervisor,
+div.team,
+div.karma,
+div.calculator {
+  max-width: 320px;
+  max-height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: white;
+  padding: 2em;
+  box-shadow: 0px 8px 11px 4px rgb(0 0 0 / 20%);
+}
+div.supervisor {
+  margin-top: 4em;
+  border-top: 6px solid var(--Blue);
+  border-radius: 5px;
+}
+div.team {
+  border-top: 6px solid var(--Red);
+  border-radius: 5px;
+}
+div.karma {
+  border-top: 6px solid var(--Orange);
+  border-radius: 5px;
+}
+div.calculator {
+  border-top: 6px solid var(--Cyan);
+  border-radius: 5px;
+}
+img {
+  display: block;
+  margin-left: auto;
+}
+p.co-2 {
+  color: var(--Very-Dark-Blue);
+}
+p:hover {
+  font-weight: bolder;
+  transform: 0.1s;
+}
+h3:hover {
+  font-weight: normal;
+  transform: 0.1s;
+}
+h1:hover {
+  font-weight: normal;
+  transform: 0.1s;
+}
+h1.sub:hover {
+  font-weight: bolder;
+  transform: 0.1s;
+}
+footer.end {
+  text-align: center;
+  margin-top: 73px;
+  font-size: 17px;
+}
+a.cta {
+  text-decoration: none;
+  color: var(--Orange);
+}
+footer:hover {
+  font-weight: bold;
+}
+a.cta:hover {
+  font-weight: bolder;
+  color: var(--Blue);
+}
+@media only screen and (min-width: 1440px) {
+  p.co-1 {
+    width: 500px;
+    font-size: 14px;
+  }
+  div.container-2 {
+    display: flex;
+    flex-direction: row;
+  }
+  div.t-k {
+    flex-direction: column;
+  }
+  div.supervisor {
+    position: relative;
+    bottom: -121px;
+  }
+  div.calculator {
+    position: relative;
+    bottom: -136px;
+  }
+}
